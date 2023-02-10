@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="loginLayout" prefHeight="510.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resturant.LoginController">
+   <children>
+      <Label layoutX="148.0" layoutY="254.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="50.0" layoutY="286.0" prefHeight="27.0" prefWidth="284.0">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="152.0" layoutY="330.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="50.0" layoutY="358.0" prefHeight="26.0" prefWidth="284.0">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="231.0" layoutY="413.0" mnemonicParsing="false" onAction="#login" prefHeight="28.0" prefWidth="71.0" text="Login" textFill="#1e963e">
+         <font>
+            <Font name="Gill Sans MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="413.0" mnemonicParsing="false" onAction="#exit" prefHeight="28.0" prefWidth="71.0" text="Logout" textFill="#a90909">
+         <font>
+            <Font name="Gill Sans MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="173.0" fitWidth="186.0" layoutX="100.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ber.jpg" />
+         </image>
+      </ImageView>
+   </children>
+   <stylesheets>
+      <URL value="@../../../resturant/src/resturant/style.css" />
+      <URL value="@style.css" />
+   </stylesheets>
+</AnchorPane>
