@@ -48,13 +48,11 @@ To return to login interface.
 
 + Meals interface
 ![WhatsApp Image 2024-08-10 at 15 32 10_bbe1127f](https://github.com/user-attachments/assets/f9932f71-c2aa-4c9a-bbff-8a28de65442a)
-<img src="https://user-images.githubusercontent.com/78619248/217969779-8f76bf59-b614-480b-8bea-7368b2e97e43.png" width="800">
 
 
 + Drinks interface
 ![WhatsApp Image 2024-08-10 at 15 32 11_d30b2c02](https://github.com/user-attachments/assets/b53ce245-2648-466f-9b96-a21ce742584b)
 
-<img src="https://user-images.githubusercontent.com/78619248/217970131-ae3ecb8d-e6c8-4f97-8994-59d4440a486c.png" width="800">
 
 ## Usage
 
